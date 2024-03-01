@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Malone-Bulkley-CSU-dotNET.props" />
+</Project>
