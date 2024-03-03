@@ -23,6 +23,14 @@ namespace Malone_Bulkley_CSU_dotNET.Controllers
             return View();
         }
 
+        [Authorize]
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
