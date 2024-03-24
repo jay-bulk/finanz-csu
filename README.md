@@ -19,7 +19,7 @@ Finanz (feen-anhts) DE: finance. A simple finance tracking application.
 * A user may not create duplicate categories (check like named members)
 * A user may not edit previous years expenses (closed book so to speak)
 * A user may edit current year expenses
-* A user may edit current year projections
+~~ * A user may edit current year projections~~
 
 
 ## Assumptions:
